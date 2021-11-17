@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MySql.Model;
 using MySqlE.Data.Repositories;
 using System;
 using System.Collections.Generic;
@@ -23,6 +24,18 @@ namespace InvoicesProyect.Controllers
         public async Task<IActionResult> GetClients()
         {
             return Ok(await _invoicesRepository.GetInvoices());
+        }
+        [HttpPost]
+        public async Task<IActionResult> CreateClient([FromBody] Invoices invoices)
+        {
+            if (invoices == null)
+                return BadRequest();
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var created = await _invoicesRepository.InsertInvoices(invoices);
+            return Created("created", created);
         }
     }
 }

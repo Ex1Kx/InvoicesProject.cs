@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace MySqlE.Data.Repositories
 {
-    public interface IClientsRepository
+    public interface IInvoicesDetails
     {
-        Task<IEnumerable<Clients>> GetClients();
-        Task<Clients> GetClientsDetail();
-        Task<bool> InsertClient(Clients clients);
+        Task<IEnumerable<InvoicesDetails>> GetAllInvoices();
+        Task<bool> InsertDetails();
     }
 }

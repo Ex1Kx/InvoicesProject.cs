@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace MySql.Model
 {
-    public class Invoices
+    public class Invoices : InvoicesDetails
     {
         public int Id { get; set; }
         public int Id_Client { get; set; }
-        public string Cod { get; set; }
+        public int Cod { get; set; }
+
     }
 }

@@ -10,6 +10,6 @@ namespace MySqlE.Data.Repositories
     public interface IInvoicesRepository
     {
         Task<IEnumerable<Invoices>> GetInvoices();
-        Task<bool> InsertClient();
+        Task<bool> InsertInvoices(Invoices invoices);
     }
 }

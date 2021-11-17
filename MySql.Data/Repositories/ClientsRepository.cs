@@ -37,9 +37,16 @@ namespace MySqlE.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<bool> InsertClient()
+        public async Task<bool> InsertClient(Clients clients)
         {
-            throw new NotImplementedException();
+            var db = dbConnection();
+
+            var sql = @"
+                         INSERT INTO clients (Id, Namei, Last_Name, Document_Id)
+                         VALUES (@Id, @Namei, @Last_Name, @Document_Id)";
+            var result = await db.ExecuteAsync(sql, new {clients.Id, clients.Namei, clients.Last_Name, clients.Document_Id });
+
+            return result > 0;
         }
     }
 }

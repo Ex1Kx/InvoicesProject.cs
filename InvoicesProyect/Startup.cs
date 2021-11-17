@@ -34,6 +34,7 @@ namespace InvoicesProyect
 
             services.AddScoped<IClientsRepository, ClientsRepository>();
             services.AddScoped<IInvoicesRepository, InvoicesRepository>();
+            services.AddScoped<IInvoicesDetails, InvoicesDetailsRepository>();
 
 
             services.AddControllers();
