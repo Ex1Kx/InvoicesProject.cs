@@ -1,0 +1,12 @@
+C:\Users\ekigo\source\repos\InvoicesProyect\MySql.Model\bin\Debug\net5.0\MySql.Model.deps.json
+C:\Users\ekigo\source\repos\InvoicesProyect\MySql.Model\bin\Debug\net5.0\MySql.Model.dll
+C:\Users\ekigo\source\repos\InvoicesProyect\MySql.Model\bin\Debug\net5.0\ref\MySql.Model.dll
+C:\Users\ekigo\source\repos\InvoicesProyect\MySql.Model\bin\Debug\net5.0\MySql.Model.pdb
+C:\Users\ekigo\source\repos\InvoicesProyect\MySql.Model\obj\Debug\net5.0\MySql.Model.csproj.AssemblyReference.cache
+C:\Users\ekigo\source\repos\InvoicesProyect\MySql.Model\obj\Debug\net5.0\MySql.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ekigo\source\repos\InvoicesProyect\MySql.Model\obj\Debug\net5.0\MySql.Model.AssemblyInfoInputs.cache
+C:\Users\ekigo\source\repos\InvoicesProyect\MySql.Model\obj\Debug\net5.0\MySql.Model.AssemblyInfo.cs
+C:\Users\ekigo\source\repos\InvoicesProyect\MySql.Model\obj\Debug\net5.0\MySql.Model.csproj.CoreCompileInputs.cache
+C:\Users\ekigo\source\repos\InvoicesProyect\MySql.Model\obj\Debug\net5.0\MySql.Model.dll
+C:\Users\ekigo\source\repos\InvoicesProyect\MySql.Model\obj\Debug\net5.0\ref\MySql.Model.dll
+C:\Users\ekigo\source\repos\InvoicesProyect\MySql.Model\obj\Debug\net5.0\MySql.Model.pdb
